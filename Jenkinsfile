@@ -4,7 +4,7 @@ node('docker') {
   // Kubernetes cluster info
   def cluster = 'rogerio'
   def zone = 'us-central1-f'
-  def project = 'REPLACE_WITH_YOUR_PROJECT_NAME'
+  def project = 'playground-1058'
 
   // Run tests
   stage 'Go tests'
